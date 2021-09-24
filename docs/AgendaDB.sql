@@ -1,0 +1,10 @@
+DROP SCHEMA AgendaDB;
+CREATE SCHEMA AgendaDB;
+USE AgendaDB;
+
+CREATE TABLE Contacto (
+  id INT NOT NULL AUTO_INCREMENT,
+  nombre VARCHAR(45) NOT NULL,
+  apellido VARCHAR(45) NOT NULL,
+  telefono VARCHAR(10) NOT NULL,
+  PRIMARY KEY (id));
